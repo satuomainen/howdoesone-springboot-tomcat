@@ -1,0 +1,29 @@
+target/
+
+# Don't check in any WAR files copied to docker dir
+docker/*.war
+
+# Don't check in any .env files containing secrets
+.env
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
